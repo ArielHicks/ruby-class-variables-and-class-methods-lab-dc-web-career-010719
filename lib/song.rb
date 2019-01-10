@@ -1,4 +1,4 @@
-(1..5).each_with_object(2) { |value, memo| memo *= value} memo
+(1..5).each_with_object(2) { |value, memo| memo *= value} puts memo
 
 
 class Song
