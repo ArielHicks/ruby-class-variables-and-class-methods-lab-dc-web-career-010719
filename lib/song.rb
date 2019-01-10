@@ -1,4 +1,4 @@
-(1..5).each_with_object(2) { |value, memo| memo *= value} return memo
+(1..5).each_with_object(2) { |value, memo| memo *= value} memo
 
 
 class Song
@@ -60,6 +60,7 @@ class Song
   end
   attr_accessor :name, :artist, :genre
 end
+
 the_day = Song.new("The Day", "John Smith", "classic")
 tomorow = Song.new("Tomorow", "John Smith", "classic")
 a_yearz = Song.new("A Yearz", "Adam Johns", "oldtime")
